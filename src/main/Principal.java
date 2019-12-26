@@ -21,19 +21,7 @@ public class Principal {
         P3 sextoPunto = new P3 (segundoPunto, 2);
         P3 septimoPunto = new P3 (quintoPunto);
 
-        /**
-         * Constructores P4
-         */
-        P4 punto4 = new P4();
-        P4 puntocuatro = new P4(1,3,5,6);
-        P4 puntoParametro = new P4(quintoPunto,3);
-        P4 otroPuntoP4 = new P4 (sextoPunto,5);
 
-        System.out.println(punto4);
-        System.out.println(puntocuatro);
-        System.out.println(puntoParametro);
-        System.out.println(otroPuntoP4);
-        System.out.println(otroPuntoP4.CalcularDistancia(segundoPunto));
 
         /*
         Triangulo equilatero = new Triangulo();
